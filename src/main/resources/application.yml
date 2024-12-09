@@ -1,0 +1,15 @@
+spring:
+  docker:
+    compose:
+      enabled: false
+  application:
+    name: socialnetwork
+  datasource:
+    url: jdbc:postgresql://localhost:5431/socialnetwork
+    username: postgres
+    password: postgres
+  jackson:
+    default-property-inclusion: non_null
+
+server:
+  port: 8082
